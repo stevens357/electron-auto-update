@@ -1,0 +1,26 @@
+{
+  "name": "electron-auto-update",
+  "version": "1.0.0",
+  "description": "electron-auto-update is an experimental",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --publish never",
+    "deploy": "electron-builder build --publish always"
+  },
+  "repository": "https://github.com/stevens357/electron-auto-update",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-updater": "^6.1.4"
+  },
+  "devDependencies": {
+    "electron": "^27.0.2",
+    "electron-builder": "^24.6.4"
+  }
+}
