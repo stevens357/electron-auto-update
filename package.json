@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "electron-auto-update is an experimental",
   "main": "main.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "releaseType": "release"
   },
   "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-updater": "^6.1.4"
+  },
   "devDependencies": {
     "electron": "^27.0.2",
     "electron-builder": "^24.6.4"
